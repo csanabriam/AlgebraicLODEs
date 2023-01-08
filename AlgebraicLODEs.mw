@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2016" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1050" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="standard" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" hide-output="false" labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">AlgebraicLODEs := module()
+   description &quot;Tools for studying linear ordinary differential equations with only algebraic solutions.&quot;:
+   option package:
+   uses LinearAlgebra, combinat:
+
+#################################################
+# DEtools is not a module but and (old-format 'table') so instead of 'uses' we use the long form 'DEtools[proc]' 
+#################################################
+
+   export create_isw, inv2ev, create_eq, global_bounds, inv_heu, create_is, create_Sym, create_SA, invariants:
+
+#################################################
+# The following procedures<Font encoding="UTF-8"> relate to the procedures in C. Sanabria Malag\303\263n, An algorithm for computing differential equations for invariant curves, https://arxiv.org/abs/1708.08555 .
+</Font>
+#
+### Example ###
+#
+# The generators of C[x,y]^A5 are
+#
+# J[1]:=x*y*(x^10+11*x^5*y^5-y^10):
+# J[2]:=-x^20-y^20+228*(x^15*y^5-x^5*y^15)-494*x^10*y^10:
+# J[3]:=x^30+y^30+522*(x^25*y^5-x^5*y^25)-100005*(x^20*y^10-x^10*y^20):
+# J:=[seq(J[i],i=1..3)]:
+# 
+# A model for an invariant curve is given by
+#
+# fI:=[ (1/2)*t^4*(t-1)^4 , 2*t^6*(t-1)^6*(t^2-t+1) , sqrt(2)*I*(t-2)*(2*t-1)*(t+1)*t^9*(t-1)^9 ]:
+#
+# We get the linear ordinary differential operator in the differential algebra [t,Dt] with the procedure
+#
+# L:=create_eq(2,3,J,fI,[x,y],[Dt,t]);
+#
+##################################################
+
+create_isw := proc(d,m,w)
+   local i, j, c, is, Ni:
+   description &quot;Return an array of the exponents of the monomials of degree 'd' on 'm' variables that form a basis of a weighted symmetric product with weights 'w'. The degree 'd' and the number of variables 'm' are integers and 'w' is an array of length m of integers.&quot;:
+
+   Ni := 0:
+   i := [seq(0, k = 1 .. m)]:
+
+   c :=1:
+
+   j :=0:
+   while j&lt;m+1 do
+      while i[1]&lt;d+1 do
+         if add(i[k]*w[k],k=1..m)=d then
+            is[c]:=i:
+            c:=c+1
+         fi:
+         i[1]:=i[1]+1
+      od:
+      i[1]:=0:
+      j:=2:
+      while j&lt;&gt;1 and j&lt;&gt;m+1 do
+         if i[j]&lt;d then
+            i[j]:=i[j]+1:
+            j := 1
+         else
+            i[j]:=0:
+            j:=j+1
+         fi
+      od:
+   od:
+   is:= Array([seq(is[k], k = 1 .. c-1)]):
+end proc;
+
+##################################################
+
+inv2ev := proc(P,n,m,J,fI,xs)
+   local tempc, ac, dc, i, j, l, lisc, nlisc, lisxyzc, nlisxyzc, EQ, CO, temp, Solsc, Pev, evaluation, dj:
+   description &quot;Let 'J' be an array of 'm' polynomials on the 'n' variables 'xs' and 'P' be a polynomial in the algebra generated by 'J'. The procedure inv2ev returns the value of 'P' when the polynomials in 'J' take the values in 'fI'. The 'n' entries of the array 'xs' are variables, 'J' are 'm' polinomials in the variables in xs, P is an element in the algebra generated by 'J' and 'fI' are 'm' values for the polynomials in 'J'.&quot;:
+
+   dj:=[seq(degree(J[i]),i=1..m)]:
+   evaluation:={seq(FI[i]=fI[i],i=1..m)}:
+
+   tempc:=P:
+   ac:=0:
+   while tempc&lt;&gt;0 do
+      dc:=degree(tempc,{seq(xs[i],i=1..n)}):
+
+      lisc:=create_isw(dc,m,dj):
+      nlisc:=RowDimension(lisc):
+
+
+      lisxyzc:=create_isw(dc,n,[seq(1,i=1..n)]):
+      nlisxyzc:=RowDimension(lisxyzc):
+
+
+      EQ:=Matrix(nlisxyzc,nlisc):
+      CO:=Vector(nlisxyzc):
+
+      for j from 1 to nlisc do
+         temp:=expand(mul(J[i]^(lisc[j][i]),i=1..m)):
+         for i from 1 to nlisxyzc do
+            EQ[i,j]:=temp:
+            for l from 1 to n do
+               EQ[i,j]:=coeff(EQ[i,j],xs[l],lisxyzc[i][l]):
+            od:
+         od:
+      od:
+
+      for i from 1 to nlisxyzc do
+         CO[i]:=tempc:
+         for l from 1 to n do
+            CO[i]:=coeff(CO[i],xs[l],lisxyzc[i][l]):
+         od:
+      od:
+
+      Solsc:=LinearSolve(EQ,CO):
+      ac:=ac+add(Solsc[i]*mul(FI[j]^(lisc[i][j]),j=1..m), i=1..nlisc):
+      tempc:=expand(tempc-add(Solsc[i]*mul(J[j]^(lisc[i][j]),j=1..m), i=1..nlisc)):
+   od:
+   Pev:=simplify(subs(evaluation,ac)):
+end proc;
+
+##################################################
+create_eq := proc(n,m,J,fI,xs,DD:=_Envdiffopdomain)
+   local i, j, k, l, F, Fij, xij, EQ, Sols, M, c, dc, lisc, nlisc, lisxyzc, nlisxyzc, CO, temp, tempc, ac, Solsc, L, v, cs, t, Dt:
+   description &quot;Let G be a finite linear group in GL(C,'n') and 'xs' an array of 'n' variables. Let 'J' be an array of 'm' generators of the algebra of G-invariant polynomials on the variables in 'xs'. Let C be a G-invariant algebraic curve and let 'fI' be an array of 'm' polynomials such that J[i] |--&gt; fI[i] is a model of C. The procedure create_eq returns an LODE given as a operator in the differential algebra 'DD' such that the values of the invariants 'J' of this LODE are 'fI'.&quot;:
+
+   if type(DD,symbol) then
+      error &quot;differential algebra not specified&quot;
+   fi;
+
+   Dt:=DD[1]:
+   t:=DD[2]:
+
+
+   F:=[seq(J[i],i=1..n)]:
+   Fij:=Matrix(n):
+   for i from 1 to n do
+      for j from 1 to n do
+         Fij[i,j]:=diff(F[i],xs[j])
+      od
+   od:
+
+   xij:=Matrix(n):
+   v:=LinearSolve(Fij,Vector([seq(diff(fI[i],t),i=1..n)])):
+   for i from 1 to n do xij[i,1]:=v[i] od:
+
+   for i from 1 to n do
+      for j from 2 to n do
+         xij[i,j]:=add(diff(xij[i,j-1],xs[k])*xij[k,1],k=1..n)+diff(xij[i,j-1],t)
+      od
+   od:
+
+   EQ:=Matrix(n,n+1):
+   for i from 1 to n do EQ[i,1]:=xs[i] od:
+
+   for i from 1 to n do
+      for j from 2 to n+1 do
+         EQ[i,j]:=xij[i,j-1]
+      od
+   od:
+
+   Sols:=LinearSolve(EQ,Vector(n)):
+   M:=lcm(seq(denom(Sols[i]),i=1..n+1)):
+   c:=seq(expand(simplify(M*Sols[i])),i=1..n+1):
+
+
+   cs:=[seq(inv2ev(c[k],n,m,J,fI,xs),k=1..n+1)]:
+
+   L:=add(factor(cs[i]/cs[n+1])*Dt^(i-1),i=1..n+1);
+
+end proc;
+
+#################################################
+# The following procedures relate to the procedures <Font encoding="UTF-8">in M. van Hoeij, J.-A. Weil, 'An algorithm for computing invariants of differential Galois groups', Journal of Pure and Applied Algebra 117\342\200\223118 (1997), p. 353-379, https://doi.org/10.1016/S0022-4049(97)00018-2 .</Font>
+#
+### Example ###
+#
+# To compute the invariants of degree 6 of
+#
+# L := Dx^2+2/(9*x^2)+3/(16*(x-1)^2)-3/(16*x*(x-1))
+#
+# 1. using the heuristic algorithm with the power series expansion, up to degree 15, of the solutions at x=0, type:
+#
+# inv_heu(L,6,0,15,[Dx,x]);
+#
+# 2. using the algorithm with the power series expansion, up to degree 10 (for the heuristic), of the solutions at x=0, type:
+
+#
+# invariants(L,6,0,10,[Dx,x]);
+#
+##################################################
+
+makeset := proc(S::set)::set;
+   description &quot;make a set from S, because MAPLE seems to have issues with that&quot;:
+   local s, c, d, Set:
+   Set := {}:
+   for s in S do
+      d:=1:
+      for c in Set do
+         if s=c then
+            d:=0
+         fi
+      od:
+      if d=1 then
+         Set := Set union {s}
+      fi
+   od:
+   Set;
+end proc;
+
+val := proc(p::list)
+   description &quot;compute valuation prime&quot;:
+   if ldegree(p[1])=infinity then 0 else ldegree(p[1])/degree(lhs(p[2])) end if;
+end proc;
+
+sumset := proc(A::set,B::set)::set;
+   local S:
+   description &quot;compute sumset A+B&quot;:
+   S := {seq(seq(simplify(i+j),i in A), j in B)}:
+   makeset(S);
+end proc;
+
+nset := proc(A::set,n::integer)::set;
+   local i, Nset:
+   description &quot;compute set n.A&quot;:
+   Nset := {0}:
+   for i from 1 to n do
+      Nset := sumset(Nset,A):
+   od:
+   Nset;
+end proc;
+
+comp_B := proc(l, n::integer, M::list)::set;
+   local B, Bi, i, m, S:
+   description &quot;compute the set B from Theorem 25&quot;:
+   Bi := [seq(1..n)]:
+   m := nops(l):
+   for i from 1 to n do
+      S:=seq(l[c,1]+(i-1)*val(l[c])-(i-1),c=1..m):
+      Bi[i] := makeset({S})
+   od:
+
+   for i from 1 to n do
+      if M[i]=0 then
+         Bi[i]:= {0}
+      else
+         Bi[i] := nset(Bi[i],M[i])
+      fi:
+   od:
+   B:={0}:
+   for i from 1 by 1 to n do
+      B := sumset(B,Bi[i])
+   od:
+   B:
+end proc;
+
+mgcd := proc(l::list)
+   local d, i;
+   description &quot;compute gcd of elements in l&quot;:
+   d:=0:
+   for i in l do
+      d:=gcd(d,i)
+   od:
+   d;
+end proc;
+
+fix_L := proc(L,DD)
+   local L_0, x, Dx:
+   description &quot;(ii) of global bounds&quot;:
+
+   x := DD[2]:
+   Dx := DD[1]:
+   _Envdiffopdomain := [Dx,x];
+
+   L_0:=DEtools[mult](lcm(op(denom(DEtools[convertAlg](DEtools[diffop2de](L,y(x)),y(x))[1]))),L):
+   DEtools[mult](1/mgcd(DEtools[convertAlg](DEtools[diffop2de](L_0,y(x)),y(x))[1]),L_0);
+end proc;
+
+ram_index := proc(l)
+    local r,i,d,c,s,S:
+    description &quot;compute the ramification index&quot;:
+    r:={};
+    S:=seq(degree(lhs(i[2])),i in l):
+    for s in S do
+      d:=1:
+      for c in r do
+         if s=c then
+            d:=0
+         fi
+      od:
+      if d=1 then
+         r := r union {s}
+      fi
+    od:
+    lcm(op(r));
+end proc;
+
+intersect_Br := proc(B,r)::set;
+    local i, S:
+    description &quot;intesect B and Z/r&quot;:
+    S:={}:
+    for i in B do
+       if r*i=r*floor(i) then
+          S:=S union {i}
+       fi
+    od:
+    makeset(S);
+end proc;
+
+##################################################
+global_bounds := proc(L_1, M::list, DD:=_Envdiffopdomain)::list;
+   local Q, i, j, L, n, p, alpha, r, B, Br, x, Dx:
+<Font encoding="UTF-8">   description &quot;Let 'L_1' be a linear ordinary differential operator in the differential algebra 'DD' and 'M' an array of non-negative integers m_0,...,m_{n-1}. The procedure global_bounds returns a rational function Q and an integer N such that every rational solution y of Sym({L^(0)}^Sym(m_0),...,{L^(n-1)}^Sym(m_{n-1})) can be written as the product of Q and a polynomial of degree &lt;= N. This is Algorithm 1 (Procedure global-bounds) in M. van Hoeij, J.-A. Weil, 'An algorithm for computing invariants of differential Galois groups', Journal of Pure and Applied Algebra 117\342\200\223118 (1997), p. 353-379, https://doi.org/10.1016/S0022-4049(97)00018-2.&quot;:
+</Font>
+   if type(DD,symbol) then
+      error &quot;differential algebra not specified&quot;
+   fi;
+
+   x := DD[2]:
+   Dx := DD[1]:
+   _Envdiffopdomain := [Dx,x];
+
+   Q:=1:
+   L:=fix_L(L_1, DD):
+   n:=nops(DEtools[convertAlg](DEtools[diffop2de](L,y(x)),y(x))[1])-1:
+   p:=factors(DEtools[convertAlg](DEtools[diffop2de](L,y(x)),y(x))[1,n+1], I):
+
+   for i in p[2] do
+      alpha := solve(i[1]):
+      r := ram_index(DEtools[gen_exp](L, T, x = alpha, 'restrict_to' = {'minimal'})):
+      B := comp_B(DEtools[gen_exp](L, T, x = alpha, 'restrict_to' = {'minimal'}), n, M):
+      Br := intersect_Br(B,r):
+      if nops(Br)=0 then
+         Q:=0
+      else
+         Q:=Q*i[1]^ceil(min(Br))
+      fi
+   od:
+   r := ram_index(DEtools[gen_exp](L, T, x = infinity, 'restrict_to' = {'minimal'})):
+   B := comp_B(DEtools[gen_exp](L, T, x = infinity, 'restrict_to' = {'minimal'}), n, M):
+   Br := intersect_Br(B,r):
+   if nops(Br)=0 then
+      Q:=0
+   fi:
+   if Q=0 then
+      [Q,0]
+   else
+      [Q,max(-(ceil(min(Br))+2*sum((j-1)*M[j],j=1..nops(M)))+degree(denom(Q))-degree(numer(Q)),0)]
+   fi;
+end proc;
+
+##################################################
+inv_heu := proc(L, m, x_0, v, DD:=_Envdiffopdomain)
+   local Q, N, sol, r, n, M, symsol, c, i, j, C, l, sys, var, cs, sols, X, symX, itemp, eqn, eqns, d, dd, ld, Ni, Qs, Tx, xT, x, Dx:
+   description &quot;Let 'L' be a linear ordinary differential operator in the differential algebra 'DD', 'm' an integer, 'x_0' a point, and 'v' a number. The procedure inv_heu returns a vector space of candidate invariants of 'L' of degree 'm' and their corresponding candidate values, given as a parametrized candidate vector invariant, candidate value and candidate polynomial invariant in the solutions. <Font encoding="UTF-8">This is Algorithm 2 (Heuristic for computing invariants) in M. van Hoeij, J.-A. Weil, 'An algorithm for computing invariants of differential Galois groups', Journal of Pure and Applied Algebra 117\342\200\223118 (1997), p. 353-379, https://doi.org/10.1016/S0022-4049(97)00018-2.</Font>&quot;:
+
+   if type(DD,symbol) then
+      error &quot;differential algebra not specified&quot;
+   fi;
+
+   x := DD[2]:
+   Dx := DD[1]:
+   _Envdiffopdomain := [Dx,x];
+
+   if x_0=infinity then
+      Tx:={T=1/x}:
+      xT:={x=1/T}
+   else
+      Tx:={T=x-x_0}:
+      xT:={x=T+x_0}
+   fi: 
+
+
+   n := nops(DEtools[convertAlg](DEtools[diffop2de](L,y(x)),y(x))[1])-1:
+   M := [seq(0, k = 1 .. n)]:
+   M[1] := m:
+   Q:= global_bounds(L, M, DD):
+   N:= Q[2]:
+   Q:= Q[1]:
+   d:=max(degree(numer(simplify(subs(xT,Q)))),0):
+
+   r := ram_index(DEtools[gen_exp](L, T, x = infinity, 'restrict_to' = {'minimal'})):
+
+   if x_0=infinity then
+      sol := DEtools[formal_sol](L,x=x_0,'order'=max(d-N,0)+1)
+   else
+      sol := DEtools[formal_sol](L,x=x_0,'order'=N+v+d+1)
+   fi:
+   sol := [seq(convert(subs(xT,i),polynom),i in sol)]:
+
+   Ni := binomial(n+m-1,n-1):
+   symsol := Vector(Ni):
+   i := [seq(0, k = 1 .. n)]:
+   X := [seq(X[k], k = 1 .. n)]:
+   symX := Vector(Ni):
+
+
+   c := 1:
+   while c&lt;=Ni do
+      while i[1]&lt;m+1 do
+         if sum(i[k],k=1..n)=m then
+            if x_0=infinity then
+               symsol[c]:= convert(series(product((sol[k])^(i[k]),k=1..n),T,max(d-N,0)+1),polynom)
+            else
+               symsol[c]:= convert(series(product((sol[k])^(i[k]),k=1..n),T,N+v+d+1),polynom):
+            fi:
+            symX[c]:=product(X[k]^(i[k]),k=1..n):
+            c:=c+1
+         fi:
+         i[1]:=i[1]+1:
+      od:
+      i[1]:=0:
+      j:=2:
+      while j&lt;&gt;1 and j&lt;&gt;n+1 do
+         if i[j]&lt;m then
+            i[j]:=i[j]+1:
+            j := 1
+         else
+            i[j]:=0:
+            j:=j+1
+         fi
+      od:
+   od:
+
+   if x_0=infinity then
+      Qs := convert(series(subs(xT,Q),T,d+1),polynom):
+         if Qs=0 then
+            symsol := Vector([seq(convert(series(i,T,1),polynom),i in symsol)])
+         else
+            symsol := Vector([seq(convert(series(i/Qs,T,1),polynom),i in symsol)])
+         fi 
+   else
+      Qs := convert(series(subs(xT,Q),T,N+v+d+1),polynom):
+         if Qs=0 then
+            symsol := Vector([seq(convert(series(i,T,N+v+1),polynom),i in symsol)])
+         else
+            symsol := Vector([seq(convert(series(series(i/Qs,T,N+v+d+1),T,N+v+1),polynom),i in symsol)])
+         fi
+   fi:
+
+   c:=1;
+   C:=Vector(Ni);
+   cs:=[seq(cs[k],k=1..Ni)];
+   for i from 1 to Ni do
+      if type(simplify((symsol[i])^r),ratpoly) then
+         C[i]:= cs[i]
+      else
+         C[i]:= 0
+      fi
+   od:
+   sys:=Vector(Ni);
+   var:={};
+
+   for i from 1 to Ni do
+      if type(symsol[i],ratpoly) then
+         if x_0=infinity then
+            sys[i]:= subs(xT,simplify(subs(Tx,symsol[i])-convert(series(subs(Tx,symsol[i]),x,N+1),polynom))):
+            var:= var union {cs[i]}
+         else
+            sys[i]:= simplify(symsol[i]-convert(series(symsol[i],T,N+1),polynom)):
+            var:= var union {cs[i]}
+         fi
+      else
+         sys[i]:= symsol[i]:
+         var:= var union {cs[i]}
+      fi
+   od:
+
+
+   eqns := {};
+   eqn := convert(series(Transpose(sys).C,T,N+v+1),polynom);
+   for i in eqn do
+      if type(i,ratpoly)=false then
+         eqns:= eqns union {i}
+      else
+         if x_0=infinity then
+            if ldegree(i,T)&lt;-N then
+               eqns:= eqns union {i}
+            fi
+         else
+            if degree(i,T)&gt;N then
+               eqns:= eqns union {i}
+            fi
+         fi
+      fi
+   od:
+   eqns := makeset(eqns):
+   sols:=solve(eqns,var):
+   [subs(sols,C),factor(Q*subs(sols,Transpose(subs(Tx,symsol)).C)),subs(sols,expand(Transpose(symX).C))];
+end proc;
+
+##################################################
+create_is := proc(m,n)
+   local i, j, c, is, Ni:
+   description &quot;Return an array of the exponents of the monomials of degree 'm' on 'n' variables that form a basis of the 'm'-th symmetric product of the polynomial ring on 'n' variables.&quot;:
+
+   Ni := binomial(n+m-1,n-1):
+   i := [seq(0, k = 1 .. n)]:
+   is := Array([seq(0, k = 1 .. Ni)]):
+
+   c :=1:
+   while c&lt;=Ni do
+      while i[1]&lt;m+1 do
+         if sum(i[k],k=1..n)=m then
+            is[c]:=i:
+            c:=c+1
+         fi:
+         i[1]:=i[1]+1
+      od:
+      i[1]:=0:
+      j:=2:
+      while j&lt;&gt;1 and j&lt;&gt;n+1 do
+         if i[j]&lt;m then
+            i[j]:=i[j]+1:
+            j := 1
+         else
+            i[j]:=0:
+            j:=j+1
+         fi
+      od
+   od:
+   is:
+end proc;
+
+##################################################
+create_Sym := proc(A,n,m,is,C)
+   local i,j,k,c,temp,V,f,l,Ni,SA,b,Cs,Rs,r,Ms:
+   description &quot;Return the 'm'-th symmetric power of an 'n'x'n' matrix 'A' where the basis of the 'm'-th symmetric power is given by monomials of degree 'm' on 'n' variables whose exponents are given by the entries of 'is', and 'C' is an array of length binomial(n+m-1,n-1) of 1s and 0s with a 1 in the i-th entry if one wants the i-th row of Sym^m(A) to be computed&quot;:
+   Ni:=binomial(n+m-1,n-1):
+
+   c := [seq(c[k], k = 1 .. n)]:
+   SA := Matrix(Ni):
+   b := Array([seq(0, k=1 .. Ni)]):
+   Ms := Array([seq(multinomial(m,op(is[k])), k=1 .. Ni)]):
+   V := [seq(add(c[k]*A[k,i], k=1..n),i=1..n)]:
+ 
+   for r from 1 to Ni do
+      if C[r]&lt;&gt; 0 then
+         temp:=expand(mul(V[k]^(is[r][k]),k=1..n)):
+         for j from 1 to Ni do
+            SA[j,r]:=temp:
+            for k from 1 to n do
+               SA[j,r]:=coeff(SA[j,r],c[k],is[j][k])
+            od:
+            SA[j,r]:=simplify(SA[j,r]/Ms[j]):
+         od:
+      fi
+   od:
+   SA;
+end proc;
+
+##################################################
+create_U := proc(W, N, m, n, x_0, v, is, C, d)
+   local i,j,k,U,c,V,temp,l,Ni,M,b,Cs,Rs,r,Ms:
+   description &quot;create Sym^m(W)&quot;:
+
+   Ni := binomial(n+m-1,n-1):
+   U := Matrix(Ni):
+   c := [seq(c[k], k = 1 .. n)]:
+   V := [seq(add(c[k]*W[k,i], k=1..n),i=1..n)]:
+   b := Array([seq(0, k=1 .. Ni)]):
+   Ms := Array([seq(multinomial(m,op(is[k])), k=1 .. Ni)]):
+
+   if x_0=infinity then
+      for r from 1 to Ni do
+         if C[r]&lt;&gt;0 then
+            temp:=expand(convert(series(mul(V[k]^(is[r][k]),k=1..n),T,max(d-N,0)+n+1),polynom)):
+            for j from 1 to Ni do
+               U[j,r]:=temp:
+               for k from 1 to n do
+                  U[j,r]:=coeff(U[j,r],c[k],is[j][k])
+               od:
+               U[j,r]:=simplify(convert(series(U[j,r],T,d[j]-N[j]+1),polynom)/Ms[j]):
+            od:
+         fi
+      od
+   else
+      for r from 1 to Ni do
+         if C[r]&lt;&gt;0 then
+            temp:=expand(convert(series(mul(V[k]^(is[r][k]),k=1..n),T,max(N+d)+n+1),polynom)):
+            for j from 1 to Ni do
+               U[j,r]:=temp:
+               for k from 1 to n do
+                  U[j,r]:=coeff(U[j,r],c[k],is[j][k])
+               od:
+               U[j,r]:=simplify(convert(series(U[j,r],T,N[j]+d[j]+1),polynom)/Ms[j]):
+            od:
+         fi
+      od
+   fi:
+   U;
+end proc;
+
+
+create_X := proc(n,m,is,C)
+   local i,j,xs,X,f;
+   description &quot;create matrix of Xs&quot;:
+
+   f := (i,j) -&gt; X[i,j];
+   xs := Matrix(n,f);
+   X := create_Sym(X,n,m,is,C);
+end proc;
+
+##################################################
+create_SA := proc(L, m, n, is, DD:=_Envdiffopdomain)
+   local i, j, c, a, SA, itemp, Ni, x, Dx;
+   description &quot;Let 'L' be a linear ordinary differential operator in the differential algebra 'DD' of degree 'n', 'm' and integer and 'is' an array of the exponents of the monomials in 'n' variables that form a basis of the 'm'-th symmetric power of the polynomial ring in 'n' variables. The procedure create_SA returns the matrix SA such that if A is the companion matrix of 'L' and X is a fundamental solution to X'=A.X then SX:=Sym^m(X) is a fundamental solution to SX'=SA.SX .&quot;:
+   Ni:=binomial(n+m-1,n-1):
+
+   if type(DD,symbol) then
+      error &quot;differential algebra not specified&quot;
+   fi;
+
+   x := DD[2]:
+   Dx := DD[1]:
+   _Envdiffopdomain := [Dx,x];
+   SA:=Matrix(Ni);
+   a:=DEtools[convertAlg](DEtools[diffop2de](L,y(x)),y(x))[1];
+   for i from 1 to Ni do
+      for c from 1 to (n-1) do
+         itemp:=is[i];
+         itemp[c]:=max(itemp[c]-1,0);
+         itemp[c+1]:=itemp[c+1]+1;
+         for j from 1 to Ni do
+            if is[j]=itemp then SA[i,j]:=is[i][c] fi
+         od
+      od:
+      for c from 1 to n do
+         itemp:=is[i];
+         itemp[n]:=max(itemp[n]-1,0);
+         itemp[c]:=itemp[c]+1;
+         for j from 1 to Ni do
+            if is[j]=itemp then
+               SA[i,j]:=-is[i][n]*(a[c])/(a[n+1])
+            fi
+         od
+      od:
+   od:
+   SA;
+end proc;
+
+
+##################################################
+invariants := proc(L, m, x_0, v, DD:=_Envdiffopdomain)
+   local Q, N, sol, r, n, M, U, c, i, j, is, V, W, F, C, sys, sols, var, SA, itemp, Ctemp, vartemp, eqns, eqn, d, X, Xs, Qs, Ni, Tx, xT, x, Dx;
+   description &quot;Let 'L' be a linear ordinary differential operator, 'm' an integer, 'x_0' a point and 'v' a number. The procedure invariants returns the space of invariants in dual, polynomial and vector forms. <Font encoding="UTF-8">This is Algorithm 3 (Algorithm Invariants) in M. van Hoeij, J.-A. Weil, 'An algorithm for computing invariants of differential Galois groups', Journal of Pure and Applied Algebra 117\342\200\223118 (1997), p. 353-379, https://doi.org/10.1016/S0022-4049(97)00018-2.</Font>&quot;:
+
+   if type(DD,symbol) then
+      error &quot;differential algebra not specified&quot;
+   fi;
+
+   x := DD[2]:
+   Dx := DD[1]:
+   _Envdiffopdomain := [Dx,x];
+   if x_0=infinity then
+      Tx:={T=1/x}:
+      xT:={x=1/T}
+   else
+      Tx:={T=x-x_0}:
+      xT:={x=T+x_0}
+   fi:
+
+   n := nops(DEtools[convertAlg](DEtools[diffop2de](L,y(x)),y(x))[1])-1:
+   Ni := binomial(n+m-1,n-1):
+   is := create_is(m,n):
+
+   M := [seq(0, k = 1 .. n)];
+   Q := Array([seq(0, k = 1 .. Ni)]);
+   Qs := Array([seq(0, k = 1 .. Ni)]);
+   N := Array([seq(0, k = 1 .. Ni)]);
+   d := Array([seq(0, k = 1 .. Ni)]);
+   M[1] := m;
+   Q[1]:= global_bounds(L, M, DD);
+   N[1]:= Q[1][2];
+   Q[1]:= Q[1][1];
+
+   if x_0=infinity then 
+      d[1]:=max(degree(numer(simplify(subs(xT,Q[1])))),0)
+   else
+      d[1]:=max(degree(numer(simplify(subs(xT,Q[1])))),0)
+   fi:
+
+   for i from 2 to Ni do
+      Q[i]:= global_bounds(L, is[i], DD):
+      N[i]:= Q[i][2]:
+      Q[i]:= Q[i][1]:
+      if x_0=infinity then 
+         d[i]:=max(degree(numer(simplify(subs(xT,Q[i])))),0)
+      else
+         d[i]:=max(degree(numer(simplify(subs(xT,Q[i])))),0)
+      fi:
+   od:
+
+
+   r := ram_index(DEtools[gen_exp](L, T, x = infinity, 'restrict_to' = {'minimal'}));
+
+
+   if x_0=infinity then
+      sol := DEtools[formal_sol](L,x=x_0,'order'=max(max(d)-min(N),0)+n+1)
+   else
+      sol := DEtools[formal_sol](L,x=x_0,'order'=max(N)+n+1)
+   fi:
+
+   W := Matrix(n);
+
+   if x_0=infinity then
+      for i from 1 to n do
+         for j from 1 to n do
+            W[i,j]:= convert(series(subs(xT,diff(convert(sol[j],polynom), [x$(i-1)])),T,max(max(d)-min(N),0)+1),polynom)
+         od
+      od
+   else
+      for i from 1 to n do
+         for j from 1 to n do
+            W[i,j]:= convert(series(subs(xT,diff(convert(sol[j],polynom), [x$(i-1)])),T,max(N)+1),polynom)
+         od
+      od
+   fi:
+
+
+   F:= Transpose(Array([seq(0, k=1..Ni)]));
+   Xs:= Transpose(Array([seq(0, k=1..Ni)]));
+   C:= inv_heu(L, m, x_0, v, DD);
+   F[1]:= C[2];
+   Xs[1] := C[3];
+   C:=C[1];
+   var:={};
+   for i in C do
+      if type(i, indexed) then var:=var union {i} fi
+   od:
+   var:=makeset(var):
+ 
+   U := create_U(W, N, m, n, x_0, v, is, C, d);
+   X := create_X(n,m,is,C);
+
+ 
+   sys:=Transpose(Array([seq(0, k=1..Ni)]));
+
+   if x_0=infinity then
+      for i from 2 to Ni do
+         Qs[i]:=convert(series(subs(xT,Q[i]),T,d[i]+1),polynom):
+         if Qs[i]=0 then
+            sys[i]:=convert(series(U[i].C,T,1),polynom)
+         else
+            sys[i]:=convert(series(U[i].C/Qs[i],T,1),polynom)
+         fi:
+         F[i]:=subs(Tx,sys[i])*Q[i];
+         Xs[i]:=X[i].C;
+         eqns :={};
+         for c in sys[i] do
+            if type(c,ratpoly)=false then eqns:= eqns union {c} fi
+         od
+      od
+   else
+      for i from 2 to Ni do
+         Qs[i]:=convert(series(subs(xT,Q[i]),T,N[i]+d[i]+1),polynom):
+         if Qs[i]=0 then
+            sys[i]:=convert(series(U[i].C,T,N[i]+1+1),polynom)
+         else
+            sys[i]:=convert(series(series(U[i].C/Qs[i],T,N[i]+d[i]+1),T,N[i]+1),polynom)
+         fi:
+         F[i]:=subs(Tx,sys[i])*Q[i];
+         Xs[i]:=X[i].C;
+         eqns :={};
+         for c in sys[i] do
+            if type(c,ratpoly)=false then eqns:= eqns union {c} fi
+         od
+      od
+   fi:
+   eqns:=makeset(eqns):
+
+   sols:=solve(eqns,var);
+   F:=subs(sols,F);
+   Xs:=subs(sols,Xs);
+   C:=subs(sols,C);
+   
+   var:={};
+   for i in C do
+      if type(i, indexed) then var:=var union {i} fi:
+   od:
+   var:=makeset(var):
+   SA:=create_SA(L,m,n,is):
+
+   sols:=solve({seq(diff(F[k],x)-(SA.F)[k],k=1..Ni)},var):
+   F:=subs(sols,F):
+   Xs:=subs(sols,Xs):
+   [F,Xs,C];
+end proc;
+
+##################################################
+end module;</Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>

@@ -47,9 +47,9 @@ A package of procedures written in Maple syntax for studying linear ordinary dif
 MAPLE 2016 or newer.
 
 ### Installation
-Make a copy of AlgebraicLODEs.m in your system and in Maple run the following commands.
+Make a copy of `AlgebraicLODEs.m` in your system and in Maple run the following commands.
   ```sh
-  > read("/pathtofile/AlgebraicLODEs.m");
+  > read("/path_to_file/AlgebraicLODEs.m");
   > with(AlgebraicLODEs);
   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -73,9 +73,9 @@ and the following three polynomials.
   > fI[3] := sqrt(2)*I*(t-2)*(2*t-1)*(t+1)*t^9*(t-1)^9: 
   > fI := [seq(fI[i],i=1..3)]:
   ```
-We say that the arrays J and fI define a model of a curve invariant under A5 because the map C[x,y]^A5 ---> C(t), given by J[i] |--> fI[i], for i=1,2,3, is a C-algebra homomorfism.
+We say that the arrays `J` and `fI` define a model of a curve invariant under A5 because the map C[x,y]^A5 ---> C(t), given by `J[i]` |--> `fI[i]`, for i=1,2,3, is a C-algebra homomorfism.
 
-To get the linear ordinary differential operator in the differential algebra [t,Dt] that corresponds to the model, run:
+To get the linear ordinary differential operator in the differential algebra `[t,Dt]` that corresponds to the model, run:
   ```sh
   > L:=create_eq(2,3,J,fI,[x,y],[Dt,t]);
   ```
@@ -83,7 +83,7 @@ The output corresponds to Pépin's equation, which is an equation with Different
 
 ### Example 2
 
-Consider the following linear differential operator in the differential algebra [Dx,x].
+Consider the following linear differential operator in the differential algebra `[Dx,x]`.
   ```sh
   > L := Dx^2+2/(9*x^2)+3/(16*(x-1)^2)-3/(16*x*(x-1));
   ```
@@ -100,7 +100,29 @@ and to obtain the invariants of degree 6, run:
 <!-- CAVEAT EMPTOR -->
 ## Caveat Emptor
 
-The procedure to compute the candidate invariants and the invariants (inv_heu and invariants) only work for equations with regular singularities.
+The procedure to compute the candidate invariants and the invariants (`inv_heu` and `invariants`) only work for equations with regular singularities.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+<ol>
+  <li>Fork the project</li>
+  <li>Create your feature branch (`git checkout -b feature/branch_name`)</li>
+  <li>Commit your changes (`git commit -m 'Add a feature'`)</li>
+  <li>Push to the branch (`git push origin feature/branch_name`)</li>
+  <li>Open a Pull Request</li>
+</ol>
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->

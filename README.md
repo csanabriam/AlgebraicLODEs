@@ -89,11 +89,11 @@ Consider the following linear differential operator in the differential algebra 
   ```
 To obtain candidate invariants of degree 6, run:
   ```sh
-  > inv_heu(L,6,0,15,[Dx,x]);
+  > inv_heu(L,6,0,2,[Dx,x]);
   ```
 and to obtain the invariants of degree 6, run:
   ```sh
-  > invariants(L,6,0,15,[Dx,x]);
+  > invariants(L,6,0,2,[Dx,x]);
   ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

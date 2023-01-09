@@ -109,11 +109,8 @@ Fork the project<br>
 Create your feature branch (`git checkout -b feature/branch_name`)<br>
 Commit your changes (`git commit -m 'Add a feature'`)<br>
 Push to the branch (`git push origin feature/branch_name`)<br>
-Open a Pull Request<br>
-  
+Open a Pull Request<br>  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License

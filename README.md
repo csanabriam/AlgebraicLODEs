@@ -105,13 +105,11 @@ The procedure to compute the candidate invariants and the invariants (`inv_heu` 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-<ol>
-  <li>Fork the project</li>
-  <li>Create your feature branch (`git checkout -b feature/branch_name`)</li>
-  <li>Commit your changes (`git commit -m 'Add a feature'`)</li>
-  <li>Push to the branch (`git push origin feature/branch_name`)</li>
-  <li>Open a Pull Request</li>
-</ol>
+Fork the project<br>
+Create your feature branch (`git checkout -b feature/branch_name`)<br>
+Commit your changes (`git commit -m 'Add a feature'`)<br>
+Push to the branch (`git push origin feature/branch_name`)<br>
+Open a Pull Request<br>
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
